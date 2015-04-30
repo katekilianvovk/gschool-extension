@@ -1,0 +1,12 @@
+{
+  "name": "gSchool Countdown",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "How much time do you have left at gSchool?",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "url.png"
+  }
+}
