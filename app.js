@@ -17,11 +17,11 @@ function hoursLeft(newDate) {
 }
 
 function daysLeft(newDate) {
-  var timeLeftThisMonth = (new Date(newDate.getFullYear(), newDate.getMonth() + 1, 1)) - newDate.getTime();
-  return (timeLeftThisMonth/DAY_IN_MS).toString().substring(0, 8);
+  var timeLeftMonth = (new Date(newDate.getFullYear(), newDate.getMonth() + 1, 1)) - newDate.getTime();
+  return (timeLeftMonth/DAY_IN_MS).toString().substring(0, 8);
 }
 
 function gSchoolDaysLeft(newDate) {
-  var timeLeft = (new Date(2015, 6, 3).getTime()) - newDate.getTime();
-  return (timeLeft/DAY_IN_MS).toString().substring(0, 8);
+  var timeLeftgSchool = (new Date(2015, 6, 3).getTime()) - newDate.getTime();
+  return (timeLeftgSchool/DAY_IN_MS).toString().substring(0, 8);
 }
